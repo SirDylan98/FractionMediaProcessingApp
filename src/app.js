@@ -15,7 +15,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(morgan('dev'));
+app.use(morgan('dev'));//
 
 // here we are making sure that all folders are present
 const dirs = [
